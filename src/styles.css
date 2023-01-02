@@ -13,6 +13,7 @@ body {
     display: grid;
     margin-top: 2rem;
     justify-content: center;
+    color: rgba(0, 0, 0, 0.75);
     /* centers object */
     grid-template-columns: repeat(4, 6rem);
     grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
@@ -21,6 +22,7 @@ body {
 .calculator-grid>button {
     cursor: pointer;
     font-size: 2rem;
+    justify-content: center;
     border: 1px solid white;
     outline: none;
     background: rgba(255, 255, 255, 0.75);
